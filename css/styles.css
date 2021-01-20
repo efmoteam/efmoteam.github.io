@@ -507,27 +507,7 @@ svg {
     margin-right: -2px
 }
 
-.testimonial .carousel .carousel-indicators {
-    bottom: 61px;
-}
 
-.testimonial .carousel-indicators li,
-.testimonial .carousel-indicators li.active {
-    width: 11px;
-    height: 11px;
-    margin: 1px 5px;
-    border-radius: 50%
-}
-
-.testimonial .carousel-indicators li {
-    background: #e2e2e2;
-    border-color: transparent
-}
-
-.testimonial .carousel-indicators li.active {
-    border: none;
-    background: #888
-}
 
 .testimonial .carousel-control-next,
 .testimonial .carousel-control-prev {
@@ -593,7 +573,8 @@ svg {
     bottom: -50px;
 }
 
-.classes .carousel-indicators li {
+.classes .carousel-indicators li,.testimonial .carousel-indicators li,
+.testimonial .carousel-indicators li.active {
     width: 16px;
     height: 16px;
     margin-left: 5px;
