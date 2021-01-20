@@ -441,8 +441,8 @@ svg {
 }
 
 .testimonial .carousel .img-box {
-    width: 60px;
-    height: 60px;
+    width: 100px;
+    height: 100px;
     margin: 0 auto;
     border-radius: 50%
 }
